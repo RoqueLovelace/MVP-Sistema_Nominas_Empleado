@@ -1,0 +1,64 @@
+.select-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+/* Estilos para el select */
+.select-wrapper select {
+  width: 120px; /* Ancho del botón más pequeño */
+  padding: 8px;
+  font-size: 14px;
+  border: 2px solid #000; /* Borde negro */
+  border-radius: 5px;
+  background-color: transparent; /* Fondo transparente */
+  color: #000; /* Texto negro */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.select-wrapper select:focus {
+  border-color: #1abc9c;
+  outline: none;
+}
+
+/* Estilos para el botón de asistencia */
+.btn-assistance {
+  display: inline-block;
+  width: 120px;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  color: #fff; /* Texto blanco */
+  background-color: #1abc9c; /* Fondo verde */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-assistance:hover {
+  background-color: #16a085;
+  transform: scale(1.05);
+}
+
+/* Estilos adicionales para centrar todo el contenido */
+.card.text-center .card-header,
+.card.text-center .card-body,
+.card.text-center .clock {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-title {
+  flex-grow: 0;
+  margin: 0 auto;
+}
+
+.clock {
+  font-size: 18px;
+  color: #333;
+}

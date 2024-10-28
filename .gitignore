@@ -1,0 +1,7 @@
+# Ignorar dependencias y archivos temporales
+*.log
+*.tmp
+*.swp
+*.swo
+*.env
+.DS_Store
